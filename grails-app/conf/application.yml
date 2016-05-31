@@ -3,6 +3,8 @@ grails:
     profile: web
     codegen:
         defaultPackage: camel.woes
+
+
 info:
     app:
         name: '@info.app.name@'
@@ -12,6 +14,10 @@ spring:
     groovy:
         template:
             check-template-location: false
+---
+grails:
+   gorm:
+      autowire: false
 
 ---
 grails:
