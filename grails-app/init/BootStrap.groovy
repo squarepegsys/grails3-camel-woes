@@ -1,3 +1,4 @@
+import camel.woes.Foo
 class BootStrap {
 
     def init = { servletContext ->
